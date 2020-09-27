@@ -1,7 +1,7 @@
 # css-drawings
 
-## Day 1 - Lady Bug 
+## Day 1 - Ladybug 
 
-<img src="previews/lady-bug-preview.webp" alt="Lady bug output preview"/>
+<img src="previews/lady-bug-preview.webp" alt="Ladybug output preview"/>
 
 [View Source](lady-bug.html)
