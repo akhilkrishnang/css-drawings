@@ -2,6 +2,6 @@
 
 ## Day 1 - Lady Bug 
 
-<img src="previews/lady-bug-preview.jpg" alt="Lady bug output preview" width=350px/>
+<img src="previews/lady-bug-preview.jpg" alt="Lady bug output preview"/>
 
-[View Source] (lady-bug.html)
+[View Source](lady-bug.html)
