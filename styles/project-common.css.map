@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,SAAS,EAAE,KAAK;CAMnB;;AAPD,AAEI,KAFC,CAED,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EAET,SAAS,EAAE,MAAM;CAClB;;AAGL,AAAA,OAAO,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACpB,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "project-common.scss"
+    ],
+    "names": [],
+    "file": "project-common.css"
+}

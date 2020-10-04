@@ -1,0 +1,98 @@
+@import 'project-common.scss';
+
+$bg-color:#fff;
+$plate-color:#ccc;
+$plate-color-light:#dfdfdf;
+$stroke-color:#5b5b5b;
+$handle-color:#5b5b5b;
+$shadow-color:#bdbdbd;
+
+.ready-to-eat{
+    display: flex;
+}
+
+.plate{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-color: $plate-color;
+    border: 0.3rem solid $stroke-color;
+
+    &__inner{
+        height: 16rem;
+        width: 16rem;
+        border-radius: 50%;
+        border: 0.3rem solid $stroke-color;
+        margin: 1.7rem;
+        background: $plate-color-light;
+        box-shadow: inset 1em 0 0 $shadow-color;
+    }
+}
+
+.fork {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__top{
+            height: 5rem;
+            width: 4rem;
+            display: flex;
+            justify-content: space-between;
+
+            &__line{
+                height: 100%;
+                width: 0.3rem;
+                background: $stroke-color;
+            }
+        }
+
+        &__bottom {
+            height: 2rem;
+            width: 3.4rem;
+            border: 0.3rem solid $stroke-color;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-top: 0;           
+        }
+    }
+
+    &__handle {
+        height: 0;
+        width: 1rem;
+        border-bottom: 13.2rem solid $handle-color;
+        border-left: 1.5rem solid transparent;
+        border-right: 1.5rem solid transparent;
+        border-radius: 6rem;
+        margin-top: -0.1rem;
+    }
+}
+
+.knife {
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    &__head {
+        height: 12rem;
+        width: 3rem;
+        border: 3px solid $stroke-color;
+        border-top-left-radius: 4rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+    &__handle {
+        width: 2rem;
+        height: 0;
+        border-bottom: 8rem solid $handle-color;
+        border-left: 2rem solid transparent;
+        border-bottom-left-radius: 4rem;
+    }
+}

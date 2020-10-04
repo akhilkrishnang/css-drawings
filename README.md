@@ -2,6 +2,12 @@
 
 ## Day 1 - Ladybug 
 
-<img src="previews/lady-bug-preview.webp" alt="Ladybug output preview"/>
+<img src="previews/lady-bug-preview.png" width="900" alt="Ladybug output preview"/>
 
 [View Source](lady-bug.html)
+
+## Day 2 - Ready to eat 
+
+<img src="previews/ready-to-eat-preview.png" width="900" alt="Ready to eat output preview"/>
+
+[View Source](ready-to-eat.html)
