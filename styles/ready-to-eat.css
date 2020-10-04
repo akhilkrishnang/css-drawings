@@ -111,7 +111,7 @@
 }
 
 .knife {
-  width: 7rem;
+  width: 5.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,6 +130,8 @@
   border: 3px solid #5b5b5b;
   border-top-left-radius: 4rem;
   border-bottom-left-radius: 2rem;
+  -webkit-box-shadow: inset 6px 0 0 0 #bdbdbd;
+          box-shadow: inset 6px 0 0 0 #bdbdbd;
 }
 
 .knife__handle {
