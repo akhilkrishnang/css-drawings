@@ -58,6 +58,7 @@ $truck-color: #b2d79a;
 
         &__wheel {
            @include wheel;
+           margin-left: -6rem;
         }
 
         &__wheel-cup {
