@@ -74,6 +74,16 @@
   background: #999;
 }
 
+.truck__body__wheel-cup {
+  width: 3rem;
+  height: 3rem;
+  border: 0.3rem solid #5b5b5b;
+  border-radius: 50%;
+  background: #d3d3d3;
+  margin-left: 1.7rem;
+  margin-top: 1.7rem;
+}
+
 .truck__head {
   width: 12rem;
   display: -webkit-box;
@@ -114,9 +124,9 @@
   position: absolute;
   border: 0.3rem solid #5b5b5b;
   border-right: none;
-  margin-left: 3.4rem;
-  margin-top: 1.75rem;
-  background: #a2c3d9;
+  margin-left: 3.3rem;
+  margin-top: 1.7rem;
+  background: linear-gradient(0.22turn, #96b3c6 40%, #a2c3d9 40%);
 }
 
 .truck__head__middle {
